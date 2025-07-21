@@ -1,0 +1,61 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form.com</title>
+    <link rel="stylesheet" href="index.css">
+    <style>
+        body {
+            background-color:black;
+        }
+        #attention {
+            color: red;
+            font-size: 20px;
+            font-weight: bold;
+            text-align: center;
+        }    
+
+    </style>
+
+</head>
+<body>
+    <center><h1 id="heading">Welcome to Calculator.com</h1></center>
+
+    <center><h1 id="sign">Sign Up Form <br>Fill it on your own risk!!!</h1></center>
+
+
+    <form >
+        <label for="fname">First Name:</label>
+        <input type="text" id="fname" name="fname" placeholder="naam Likho" required><br><br>
+
+        <label for="lname">Last Name:</label>
+        <input type="text" id="lname" name="lname" placeholder="surname batao" required><br><br>
+
+        <label for="email">Email:</label>
+        <input type="email" id="email" name="email" placeholder="sahi email id likho" required><br><br>
+
+        <label for="phone">Phone Number:</label>
+        <input type="tel" id="phone" name="phone"  placeholder="number daalo calling wala"><br><br>
+        
+        <label for="gender" req>Gender:</label>
+        <input type="radio" id="male" name="gender" value="male"> Male
+        <input  type="radio" id="female" name="gender" value="female"> Female<br><br>
+
+        <label for="dob">Date of Birth:</label><br>
+        <input type="date" id="dob" name="dob" required><br><br>
+
+        <label for="area"></label><br>Area:-<br>
+        <select id="area" name="area" required>
+            <option value="Delhi">Delhi</option>
+            <option value="Pune">Pune</option>
+            <option value="Banglore">Banglore</option>
+            <option value="Mumbai">Mumbai</option>
+        </select><br><br>
+
+        <button><a  href="page1.html">Proceed</a> </button>
+        
+        <input type="reset" value="Reset">
+    </form>
+
+</body>
+</html>

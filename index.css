@@ -1,0 +1,27 @@
+form{
+    width: 50%;
+    margin: auto;
+    padding: 20px;
+    border: 2px solid #292727;
+    border-radius: 10px;
+    background-color: brown;
+}
+#sign{
+    text-align: center;
+    color: red;
+    font-size: 24px;
+    font-weight: bold;
+}
+
+#wifi2{
+    text-align: center;
+    color: green;
+    font-size: 18px;
+    font-weight: normal;
+}
+#heading{
+    text-align: center;
+    color: darkblue;
+    font-size: 28px;
+    font-weight: bold;
+}
