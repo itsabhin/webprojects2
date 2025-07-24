@@ -1,0 +1,46 @@
+#first{
+    background-color: black;
+    padding:30px;
+    margin:50px;
+    color: white;
+    text-align: center;
+    display: flex;
+}
+
+body{
+    background-color:darkred;
+}
+
+
+
+
+
+#divimg{
+   width: 50%;
+   padding-left: 20px;
+   margin-left: 20px;
+    
+}
+
+#create{
+    color: red;
+    font-size: 40px;
+    text-decoration-style: wavy;
+    font-style: italic;
+
+}
+
+#room{
+    color: white;
+    font-size: 30px;
+    font-weight: bold;
+}
+
+button{
+    background-color: black;
+    border:  1px solid;
+    color: white;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+}
